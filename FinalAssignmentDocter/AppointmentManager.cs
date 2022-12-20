@@ -28,6 +28,8 @@ namespace FinalAssignmentDocter
 
         //Create Appointment list with appointment class
         public List<Appointment> AppointmentList = new List<Appointment>();
+        
+        public string postman_api_key ="PMAK-63a1aba0c0c36813cd6a2ca1-eef812ce73b3f8eee950f65ea7f8337146";
 
         //Create Object for AppointmentManager class
         public static AppointmentManager Apmanager = new AppointmentManager();
