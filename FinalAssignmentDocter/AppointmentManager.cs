@@ -18,7 +18,8 @@ namespace FinalAssignmentDocter
     {
         string CURRENT_USER_NAME = "";
         int CURRENT_USER_ID = 0;
-
+        string USERNAME = "yuvaraj";
+        string password = "Yup@";
         //Create PatientList with Patient class
         public List<Patient> PatientList = new List<Patient>();
 
