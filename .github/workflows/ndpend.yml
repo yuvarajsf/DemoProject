@@ -1,6 +1,6 @@
 - name: NDepend
     uses: ndepend/ndepend-action@v1
     with:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
-      license: ${{ secrets.NDependLicense }}
+      GITHUB_TOKEN: ${{ secrets.NDEPEND_GITKEY }}  
+      license: ${{ secrets.NDEPEND_KEY }}
       solution: src/mysolution.sln
