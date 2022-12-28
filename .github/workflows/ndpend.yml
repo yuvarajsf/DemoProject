@@ -3,4 +3,4 @@
     with:
       GITHUB_TOKEN: ${{ secrets.NDEPEND_GITKEY }}  
       license: ${{ secrets.NDEPEND_KEY }}
-      solution: src/mysolution.sln
+      solution: FinalAssignmentDocter.sln
